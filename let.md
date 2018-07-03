@@ -1,4 +1,39 @@
+var has either global scope or scope inside functions
+
+```
+for(var i = 0; i<10; i++) {
+  console.log(i)
+}
+console.log(i)
+```
+
+```
+function(){
+  for(var i = 0; i<10; i++) {
+    console.log(i)
+  }
+  console.log(i)
+}
+```
+
+```
+function printing(){
+  for(var i = 0; i<10; i++) {
+    console.log(i)
+  }
+}
+printing()
+console.log(i)
+```
+
 let is similar to var but let has scope. let is only accessible in the block level it is defined.
+
+```
+for(let i = 0; i<10; i++) {
+  console.log(i)
+}
+console.log(i)
+```
 
 ```
 if (true) {
