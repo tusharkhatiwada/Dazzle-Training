@@ -14,4 +14,4 @@ LANGUAGES.push('Java'); // Works fine.
 console.log(LANGUAGES); // ['Js', 'Ruby', 'Python', 'Go', 'Java']
 ```
 
-Consider in this way. Whenever you define a const variable, Javascript references the address of the value to the variable. In our example the _variable ‘LANGUAGES’ actually references to the memory allocated to the array_. So you _cannot change the variable to reference some other memory location later_. Throughout the program it only references to the array.
+Consider in this way. Whenever you define a const variable, Javascript references the address of the value to the variable. In our example the **variable ‘LANGUAGES’ actually references to the memory allocated to the array**. So you **cannot change the variable to reference some other memory location later**. Throughout the program it only references to the array.
