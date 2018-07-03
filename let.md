@@ -1,3 +1,5 @@
+# var
+
 var has either global scope or scope inside functions
 
 ```
@@ -25,6 +27,8 @@ function printing(){
 printing()
 console.log(i)
 ```
+
+# let
 
 let is similar to var but let has scope. let is only accessible in the block level it is defined.
 
